@@ -12,4 +12,10 @@ CONTENT:
    If player is wrong - he's out a game.
    Player stay alive to the end became WINNER.
    If winner not found at the end of numbers - there's no winners at all.
+2. GuessWordGame - simple game about guessing the movie. Initially player have 10 points,
+   so it means player have 10 attempts to guess the word, letter by letter.
+   Movie's list contains in file, so game randomly choose one movie to guess it.
+   After the player guessed word (or failed), the information about player's name,
+   player's points and player's state (GUESSED or NOT GUESSED) is saved in log file,
+   so one can explore history of attempts.    
    
