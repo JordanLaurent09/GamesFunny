@@ -17,5 +17,10 @@ CONTENT:
    Movie's list contains in file, so game randomly choose one movie to guess it.
    After the player guessed word (or failed), the information about player's name,
    player's points and player's state (GUESSED or NOT GUESSED) is saved in log file,
-   so one can explore history of attempts.    
+   so one can explore history of attempts.
+3. HangmanGame - simple version of GuessWordGame. Player have
+   10 attempts to guess word.
+4. CombatEngineerGame. Here's an array, randomly filled with mines.
+   Player have to choose all cells with no mines to win. 
+        
    
